@@ -11,7 +11,8 @@ pip install package_name
 
 use the command 
 
-* python manage.py make migrations
+* python manage.py migrate
+* python manage.py makemigrations
 * python manage.py runserver 
 
 ## Input Format :
@@ -32,4 +33,5 @@ Regular expression :
 Context free grammar :
 ![image](https://user-images.githubusercontent.com/48177682/122916973-20395b00-d37b-11eb-8ae6-1677f439f311.png)
 
+To shut down the Django server , use the command ctrl + c.
 
